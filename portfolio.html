@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Susmitha Anandam | UI/UX & Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background-color: #f9f9f9; color: #333; line-height: 1.6; }
+    header { background: #1e1e2f; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1rem; margin-top: 8px; }
+    nav { margin-top: 20px; }
+    nav a { margin: 0 15px; color: #0dcaf0; text-decoration: none; font-weight: 500; }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #1e1e2f; margin-bottom: 15px; border-left: 5px solid #0dcaf0; padding-left: 10px; }
+
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    .card h3 { margin-bottom: 10px; color: #0b5ed7; }
+
+    .skills ul, .projects ul, .certifications ul, .achievements ul {
+      list-style: none; padding-left: 0;
+    }
+    .skills li, .certifications li, .achievements li {
+      margin-bottom: 10px; padding-left: 20px; position: relative;
+    }
+    .skills li::before, .certifications li::before, .achievements li::before {
+      content: "✓"; position: absolute; left: 0; color: #0dcaf0;
+    }
+
+    footer { background: #1e1e2f; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+
+    @media (max-width: 768px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Susmitha Anandam</h1>
+  <p>UI/UX Enthusiast | Front-End Developer | ML Engineer | Hyderabad, India</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a Computer Science student specializing in Artificial Intelligence & Machine Learning, with a deep interest in front-end development and UI/UX design. I enjoy creating intuitive interfaces that blend functionality and aesthetics, aiming to deliver smooth user experiences across web platforms.</p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>UI/UX & Web Development</h3>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>React.js, Firestore</li>
+        <li>UI/UX Prototyping (Figma, Canva)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Programming & Tools</h3>
+      <ul>
+        <li>Python, Java, C</li>
+        <li>SQL (MySQL)</li>
+        <li>Jupyter Notebook, Google Colab, VS Code</li>
+        <li>Scikit-learn, Pandas, Seaborn</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Geo QR Smart Attendance</h3>
+      <p>Designed a secure web-based student check-in system using Geo QR verification and multi-factor authentication, enhancing both UI and backend efficiency. <br><em>Tech: React.js, Firestore</em></p>
+    </div>
+    <div class="card">
+      <h3>Airlines Satisfaction Analysis</h3>
+      <p>Built a data analysis model to predict customer satisfaction. Focused on visual storytelling using Matplotlib and Seaborn.<br><em>Tech: Python, ML, Visualization</em></p>
+    </div>
+    <div class="card">
+      <h3>ToDo Task Web App</h3>
+      <p>A clean and responsive UI for managing tasks with local storage. Inspired by modern productivity tools.<br><em>Tech: HTML, CSS, JS</em></p>
+    </div>
+  </div>
+</section>
+
+<section id="certs" class="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>Smart Interviews – DSA Silver Badge</li>
+    <li>HackerRank – Problem Solving & SQL</li>
+    <li>IBM – Google Data Analytics</li>
+  </ul>
+</section>
+
+<section class="achievements">
+  <h2>Achievements</h2>
+  <ul>
+    <li>350+ DSA problems solved on LeetCode (50-day streak)</li>
+    <li>70+ problems solved on InterviewBit</li>
+    <li>Silver Badge in Problem Solving – HackerRank</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📧 <a href="mailto:anandhamsusmitha@gmail.com">anandhamsusmitha@gmail.com</a></p>
+  <p>🔗 <a href="https://www.linkedin.com/in/susmitha-anandham/" target="_blank">linkedin.com/in/susmitha-anandham</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Susmitha Anandam. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
